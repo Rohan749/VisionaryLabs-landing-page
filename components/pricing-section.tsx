@@ -1,7 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Code, Zap, Palette, Layout, Users, ChevronRight } from "lucide-react";
+import { Code, Zap } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -95,9 +94,7 @@ function PricingSection() {
                           className="toggle-checkbox"
                           type="checkbox"
                           checked={feature.title === "Development Package" ? firstSocialEnable : secondSocialEnable}
-                          onChange={() => {
-                            feature.title === "Development Package" ? setFirstSocialEnable(!firstSocialEnable) : setSecondSocialEnable(!secondSocialEnable)
-                          }}
+                          onChange={() => feature.title === "Development Package" ? setFirstSocialEnable(!firstSocialEnable) : setSecondSocialEnable(!secondSocialEnable)}
                         />
                         <div className="toggle-switch"></div>
                       </label>
@@ -129,7 +126,7 @@ function PricingSection() {
                       index === 0 ? "text-black" : "text-white"
                     } mb-2`}
                   >
-                    What's in it:
+                    What&apos;s in it:
                   </h3>
                   <div className="text-slate-400">
                     {feature.description.slice(0,5).map((val: string) => {

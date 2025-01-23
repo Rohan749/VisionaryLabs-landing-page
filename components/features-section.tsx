@@ -1,11 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Code, Zap, Palette, Layout, Users, ChevronRight } from "lucide-react";
 import React from "react";
 import { AiOutlineAppstoreAdd, AiOutlineFileImage } from "react-icons/ai";
 import { FaTools } from "react-icons/fa";
-import { FaAppStoreIos, FaPlug } from "react-icons/fa6";
+import {  FaPlug } from "react-icons/fa6";
 import { GiTechnoHeart } from "react-icons/gi";
 
 const features = [

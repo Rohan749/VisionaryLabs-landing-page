@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from 'framer-motion'
-import { Code, Zap, Palette, Layout, Users, ChevronRight } from 'lucide-react'
 import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa';
 import { FaClipboardList, FaLifeRing, FaRocket } from 'react-icons/fa6';

@@ -24,7 +24,7 @@ function ExampleSection() {
             <p className="text-base sm:text-lg text-slate-300 mb-6 md:mb-8">
               Because Tailwind is so low-level, it never encourages you to
               design the same site twice. Even with the same color palette and
-              sizing scale, it's easy to build the same component with a
+              sizing scale, it&apos;s easy to build the same component with a
               completely different look in the next project.
             </p>
             <Button className="bg-sky-500  hover:bg-sky-400 text-white font-semibold h-10 md:h-12 px-4 md:px-6 rounded-lg transition-colors">

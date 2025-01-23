@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import logo2 from "../public/images/visionarylogo.png"
 import { FaXTwitter } from "react-icons/fa6";
 
 function SiteHeader() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <header className="top-0 z-50  border-none rounded-full w-full mt-5">
       <nav className="container fixed z-50 left-1/2 transform -translate-x-1/2  backdrop-blur mx-auto px-4 flex items-center justify-between h-16 rounded-full border shadow-xl border-gray-800">

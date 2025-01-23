@@ -10,7 +10,7 @@ function CTASection() {
           Ready to get started?
         </h2>
         <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-        Get started on launching your idea. Let's connect to understand your vision and scale your product to new heights!
+        Get started on launching your idea. Let&apos;s connect to understand your vision and scale your product to new heights!
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
 
