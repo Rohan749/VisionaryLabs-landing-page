@@ -9,9 +9,9 @@ import { GiTechnoHeart } from "react-icons/gi";
 const features = [
   {
     icon: <AiOutlineAppstoreAdd className="h-16 w-16 text-purple-500"  />,
-    title: "All-in-One MVP Solution",
+    title: "All-in-One Solution",
     description:
-      "Your MVP includes a sleek web app, a high-converting landing page, and SEO-optimized content, designed for fast launches and effortless scaling.",
+      "Your product includes a sleek web app, a high-converting landing page, and SEO-optimized content, designed for fast launches and effortless scaling.",
   },
   {
     icon: <FaPlug className="h-16 w-16 text-purple-500"  />,
@@ -35,7 +35,7 @@ const features = [
     icon: <FaTools className="h-16 w-16 text-purple-500"  />,
     title: "Ongoing Support & Maintenance",
     description:
-      "Beyond launch, we provide continuous support and maintenance, ensuring your MVP stays updated, secure, and running smoothly as you scale.",
+      "Beyond launch, we provide continuous support and maintenance, ensuring your product stays updated, secure, and running smoothly as you scale.",
   },
 ]
 
