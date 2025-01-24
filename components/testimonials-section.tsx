@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import aboutImg from "../public/images/aboutsection.png";
 import { Button } from "./ui/button";
-import { FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import { GrYoutube } from "react-icons/gr";
 
